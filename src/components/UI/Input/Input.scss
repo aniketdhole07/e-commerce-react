@@ -1,0 +1,32 @@
+@import '../../../index.scss';
+
+.input-wrapper {
+  margin-top: .8em;
+}
+
+.label {
+  width: 100%;
+}
+
+.input {
+  width: 100%;
+  line-height: 1.8em;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #000;
+  background: #fff;
+
+  &::placeholder {
+    color: #000;
+  }
+}
+
+.select-input {
+  width: 100%;
+  outline: none;
+  border: 1px solid #000;
+}
+
+.invalid {
+  background-color: rgb(255, 11, 11);
+}

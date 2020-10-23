@@ -1,0 +1,45 @@
+// PRODUCT REDUCER
+// filter products by category
+export const FILTER_PRODUCTS = 'FILTER_PRODUCTS';
+
+export const ADD_TO_CART = 'ADD_TO_CART';
+export const ADD_TO_WISHLIST = 'ADD_TO_WISHLIST';
+
+// handle sort utilities in ProductList component
+export const SORT_PRODUCTS = 'SORT_PRODUCTS';
+export const HANDLE_DIRECTION = 'HANDLE_DIRECTION';
+export const HANDLE_CHECKBOX_VALUE = 'HANDLE_CHECKBOX_VALUE';
+
+export const SHOW_DETAILS = 'SHOW_DETAILS';
+
+export const CALCULATE_ORDER = 'CALCULATE_ORDER';
+export const REMOVE_CART_ITEM = 'REMOVE_CART_ITEM';
+export const HANDLE_PRODUCT_AMOUNT = 'HANDLE_PRODUCT_AMOUNT';
+export const CLEAR_CART = 'CLEAR_CART';
+
+export const REMOVE_WISHLIST_ITEM = 'REMOVE_WISHLIST_ITEM';
+export const CLEAR_WISHLIST = 'CLEAR_WISHLIST';
+
+// INTERFACE REDUCER
+export const OPEN_MODAL = 'OPEN_MODAL';
+export const CLOSE_MODAL = 'CLOSE_MODAL';
+export const TOGGLE_SIDEDRAWER = 'TOGGLE_SIDEDRAWER';
+
+// ORDER REDUCER
+// handle form submit
+export const PURCHASE_INIT = 'PURCHASE_INIT';
+export const PURCHASE_ORDER_SUCCESS = 'PURCHASE_ORDER_SUCCESS';
+export const PURCHASE_ORDER_FAIL = 'PURCHASE_ORDER_FAIL';
+export const PURCHASE_ORDER_START = 'PURCHASE_ORDER_START';
+
+// handle orders list
+export const FETCH_ORDERS_START = 'FETCH_ORDERS_START';
+export const FETCH_ORDERS_SUCCESS = 'FETCH_ORDERS_SUCCESS';
+export const FETCH_ORDERS_FAIL = 'FETCH_ORDERS_FAIL';
+
+// AUTH REDUCER
+export const AUTH_START = 'AUTH_START';
+export const AUTH_SUCCESS = 'AUTH_SUCCESS';
+export const AUTH_FAIL = 'AUTH_FAIL';
+export const AUTH_LOGOUT = 'AUTH_LOGOUT';
+export const SET_AUTH_REDIRECT_PATH = 'SET_AUTH_REDIRECT_PATH';

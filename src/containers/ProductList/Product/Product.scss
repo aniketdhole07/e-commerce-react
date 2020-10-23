@@ -1,0 +1,32 @@
+@import '../../../index.scss';
+
+.product {
+
+  .info {
+    font-size: .75em;
+    font-weight: $fw-medium;
+    margin-top: 5px;
+    line-height: 1.1em;
+
+    @include mediaSm {
+      font-size: .95em;
+    }
+  }
+
+  .img-wrapper {
+    overflow: hidden;
+
+    .product-img {
+      transition: all .1s ease-in-out;
+      cursor: pointer;
+      max-height: 500px;
+      &:hover {
+        transform: scale(1.05);
+      }
+    }
+  }
+
+  & * {
+    font-size: 14px;
+  }
+}

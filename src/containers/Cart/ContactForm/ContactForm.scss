@@ -1,0 +1,21 @@
+@import '../../../index.scss';
+
+.contact-form {
+  max-width: 360px;
+  margin: 0 auto;
+  margin-top: 1.4em;
+
+  @include mediaMd {
+    max-width: 400px;
+    margin-right: 1.6em;
+  }
+}
+
+.title {
+  font-size: 1.15em;
+  margin-top: .8em;
+
+  @include mediaMd {
+    font-size: 1.2em;
+  }
+}
